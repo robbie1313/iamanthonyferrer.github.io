@@ -1,0 +1,100 @@
+  <!-- product cards -->
+          <section class="items" id="trending">
+              <div class="center-text">
+                  <h2>Our Trending <span>Products</span></h2>
+              </div>
+              <div class="products">
+                <div class="row">
+                  <img src="HP1.jpg" alt="">
+                  <div class="ptext">
+                    <h5>Sale</h5>
+                  </div>
+                <div class="price">
+                   <h4>qwerty</h4>
+                   <p>9999</p>
+                </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                    <img src="HP1.jpg" alt="">
+                  <div class="ptext">
+                    <h5>Sale</h5>
+                  </div>
+                 <div class="price">
+                   <h4>qwerty</h4>
+                   <p>9999</p>
+                 </div>
+                </div>
+              </div>
+              
+                <div class="row">
+                  <img src="HP1.jpg" alt="">
+                  <div class="ptext">
+                    <h5>Sale</h5>
+                  </div>
+                 <div class="price">
+                   <h4>qwerty</h4>
+                   <p>9999</p>
+                 </div>
+                </div>
+              </div>
+              
+                <div class="row">
+                  <img src="HP1.jpg" alt="">
+                  <div class="ptext">
+                    <h5>Sale</h5>
+                  </div>
+                 <div class="price">
+                   <h4>qwerty</h4>
+                   <p>9999</p>
+                 </div>
+                </div>
+              </div>
+              
+                <div class="row">
+                  <img src="HP1.jpg" alt="">
+                  <div class="ptext">
+                    <h5>Sale</h5>
+                  </div>
+                 <div class="price">
+                   <h4>qwerty</h4>
+                   <p>9999</p>
+                 </div>
+                </div>
+              </div>
+
+            </section>
+
+
+
+
+/* featured */
+.center-text h2{
+  color: #111;
+  font-size: 28px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.center-text span{
+  color: firebrick;
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  gap: 2rem;
+}
+.row{
+  position: static;
+  transition: all .40s;
+
+}
+.row img{
+  transition: all .40s;
+
+}
+.row img: hover{
+  transform: scale(0.9);
+}
+/* featured */
